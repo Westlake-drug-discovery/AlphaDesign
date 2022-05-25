@@ -3,9 +3,21 @@
 <img src=".github/overview.svg" width="800" >
 
 ## Dataset
+The original dataset can be downloaded from [AlphaFold Protein Structure Database](https://alphafold.ebi.ac.uk/.)
 
+The processed dataset can be downloaded from [google drive](https://drive.google.com/drive/folders/1TeojgosleXo3j4sF41vvOjCbOthPQfKm?usp=sharing).
+
+## Requirement
+```
+PyTorch>=1.10.2
+torch-geometric==2.0.3
+```
 
 ## Getting Started
+```
+cd ex1_AlphaDesign
+python main.py --method AlphaDesign --data_name UP000000437_7955_DANRE_v2 --ex_name AlphaDesign_DANRE
+```
 
 ## Citing AlphaDesign
 
